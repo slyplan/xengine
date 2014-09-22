@@ -1,0 +1,19 @@
+ul.nav.nav-pills
+  = link_to 'Добавить карту', new_toolset_map_path, class: 'btn btn-primary'
+
+.panel.panel-default
+  .panel-heading
+    | Список карт
+
+  table.table
+    tr
+      th Название
+      th Размер
+    - @maps.each do |map|
+      tr
+        td
+          =' map.name
+        td
+          =' map.width
+          | x
+          =' map.height

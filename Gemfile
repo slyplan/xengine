@@ -39,3 +39,5 @@ gem 'js-routes'
 gem 'angular-ui-bootstrap-rails'
 gem 'angular-ui-select2-rails', '0.1.0'
 
+gem 'slim-rails'
+
